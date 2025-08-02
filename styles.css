@@ -101,4 +101,47 @@ button:active {
     left - esquerda
     right - direita
 
+
 */
+
+/* Responsividade para telas menores que 768px */
+@media (max-width: 768px) {
+    h1 {
+        font-size: 28px;
+    }
+
+    h2 {
+        font-size: 20px;
+    }
+
+    .sessao-maior {
+        padding: 20px;
+        height: auto;
+    }
+
+    .area-codigo,
+    .area-resultado {
+        height: auto;
+    }
+
+    input {
+        width: 100%;
+    }
+
+    button {
+        width: 100%;
+        padding: 12px;
+        font-size: 16px;
+    }
+
+    main {
+        flex-direction: column;
+        gap: 15px;
+    }
+
+    .sessao-menor {
+        flex-direction: column;
+        gap: 10px;
+        padding: 15px;
+    }
+}
